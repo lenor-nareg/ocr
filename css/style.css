@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+#container {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+  border: 5px solid #000;
+  display: flex;
+  flex-direction: column;
+}
+
+#main{
+  border: 3px solid #dc0c0c;
+  width: 100%;
+  height: 50vh;
+}
+
+.row-header{
+  border: 3px solid #fff314;
+  width: auto;
+  height: auto;  
+}
+
+.row {
+  border: 3px dashed rgb(21, 22, 22);
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #dcdc0a;
+  padding: 10px;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  border: 1px solid #04aaac;
+  align-items: center;
+}
+
+
+.accroche{
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+/* -------------MediaQueries--- */
+
+/* Set the background color of body to tan */
+.container {
+    background-color: tan;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .container {
+      background-color: blue;
+      max-width: 992px;
+    }
+
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .container {
+      background-color: olive;
+      max-width: 600px;
+    }
+    .header{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .logo{
+      /* display: none; */
+      width: 100%;
+      height: 8vh;  
+    }
+    .logo h1{
+     width: 30%;
+     border: 1px solid #000;
+     text-align: center;
+     margin: 0 auto;
+     font-size: small;
+    }
+    .navi{
+      /* display: none; */
+      width: 100%;
+      height: 8vh;
+    }
+  }
