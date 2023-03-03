@@ -60,7 +60,12 @@
     padding: 15px 15px; 
 }
 .footerDiv ul li {
-border: 1px solid #000;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 5px 0px; 
+}
+.footerDiv ul li {
+    border: 1px solid #000;
     width: 100%;
     padding: 5px 0px; 
 }
