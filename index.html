@@ -7,12 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/filters.css">
   <link rel="stylesheet" href="https://kit.fontawesome.com/3563e2798a.css" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/3563e2798a.js" crossorigin="anonymous"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <!--<link
+  <!--<link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;1,400;1,500;1,900&display=swap"
     rel="stylesheet"> -->
   <title>booky</title>
@@ -23,43 +24,80 @@
   <div id="container">
 
     <!-- <div class="row-header"> -->
-      <div class="header">
-       <!-- <span class="logo">  -->
-        <img src="assets/logo/booki_logo.svg" alt="booki" >
-        <!-- </span> -->
-        <nav class="header-nav">
-          <ul class="menu-nav">
-            <li class="menu-item item1">
-              <a class="menu-link" href="#price">Hébergements</a>
-            </li>
-            <li class="menu-item item2">
-              <a class="menu-link" href="#activ">Activités</a>
-            </li>
-            <li class="menu-item register" > <a class="menu-link"  href="">S'inscrire</a> </li>
-          </ul>
-        </nav>
-        
-      </div>
+    <div class="header">
+      <!-- <span class="logo">  -->
+      <img src="assets/logo/booki_logo.svg" alt="booki">
+      <!-- </span> -->
+      <nav class="header-nav">
+        <ul class="menu-nav">
+          <li class="menu-item item1">
+            <a class="menu-link" href="#price">Hébergements</a>
+          </li>
+          <li class="menu-item item2">
+            <a class="menu-link" href="#activ">Activités</a>
+          </li>
+          <li class="menu-item register"> <a class="menu-link" href="">S'inscrire</a> </li>
+        </ul>
+      </nav>
+
+    </div>
     <!-- </div> -->
 
     <div id="main">
       <div class="accroche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
-      </div>
+        <!-- </div>
 
-      <div class="row nav">
+      <div class="row nav"> -->
         <form>
-          <label for="fname"><i class="fa-solid fa-location-dot"></i></label>
-          <input type="text" id="fname" name="fname" value="ex. Paris">
-          <input type="submit" value="Rechercher">
+          <label for="fname" class="label test"><i class="fa-solid fa-location-dot"></i></label>
+          <input type="text" id="fname" class="test" name="fname" placeholder="Marseille, France">
+          <input type="submit" id="search" class="test" value="Rechercher">
         </form>
       </div>
 
-      <div class="row filtres">filtres</div>
-      <div class="row info">info </div>
-      <div class="row prices" id="price">prix</div>
-      <div class="row activites" id="activ">activités </div>
+      <div class="filtres">
+        <div class="filters-title">
+
+          <h3>Filtres</h3>
+        </div>
+
+        <div class="filters-items">
+          <div class="filter-item">
+            <span  class="i-span-filter">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p>Economies</p>
+          </div>
+          <div class="filter-item">
+            <span  class="i-span-filter ">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p>Familial</p>
+          </div>
+          <div class="filter-item">
+            <span  class="i-span-filter ">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p>Romantique</p>
+          </div>
+          <div class="filter-item">
+            <span  class="i-span-filter ">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p>Animaux autorisés</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="row info">
+        <p>
+          Plus de 500 logements sont disponibles dans cette ville
+        </p>
+      </div>
+      <div class="row prices" id="price">Hébergement à Marseille</div>
+      <div class="row activites" id="activ">Les plus populaire </div>
     </div>
 
     <footer class="row footer">
@@ -67,7 +105,7 @@
     </footer>
 
   </div>
- 
+
 </body>
 
 </html>

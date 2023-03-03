@@ -1,0 +1,94 @@
+.accroche{
+    /* margin-top: 1vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 13vh;
+  }
+.accroche form{
+    display: flex;
+    align-items: center;
+
+   width: 415px;
+   height: 9vh;
+   border: 1px solid #000;
+   margin-top: 2vh;
+   border-radius: 10px;   
+}
+
+form .test{
+    border: 1px solid #000;
+     /* width: 50px; */
+    /* height: 6vh; */
+    margin: 0;
+    /*display: block;*/
+    border-radius: 10px;
+    height: 100%;
+    padding: 0 15px;
+    flex-grow: 2;
+} 
+  
+form .label{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    }
+
+.filtres{
+    width: 950px;
+    height: 7vh;
+    display: flex;
+    border: 1px solid #d60c0c;
+    justify-content: space-between;
+    /* margin: 20px 0; */
+
+    
+}
+
+.filter-item{
+    border: 2px solid #000;
+    border-radius: 50px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    
+}
+
+.filters-title{
+    /* flex-grow: 1; */
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding-right: 30px;
+}
+
+.filters-items{
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    margin: 0 0 20px 0;
+
+}
+
+.i-span-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    width: 59px;
+    height: 59px;
+    /* padding-top: 0; */
+    border-radius: 50% 50%;  
+} 
+
+.filter-item p{
+    color: #d60c0c;
+    padding: 0 15px;
+}
