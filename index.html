@@ -12,9 +12,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
+   <!--<link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;1,400;1,500;1,900&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"> -->
   <title>booky</title>
 </head>
 
@@ -22,25 +22,26 @@
 
   <div id="container">
 
-
-    <div class="row-header">
+    <!-- <div class="row-header"> -->
       <div class="header">
-        <!-- <span class="booki">Booki</span> -->
+       <!-- <span class="logo">  -->
         <img src="assets/logo/booki_logo.svg" alt="booki" >
-        <ul class="menu-nav">
-          <li class="menu-item">
-            <a class="menu-link" href="#price">Hébergements</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link" href="#activ">Activités</a>
-          </li>
-        </ul>
-
+        <!-- </span> -->
+        <nav class="header-nav">
+          <ul class="menu-nav">
+            <li class="menu-item item1">
+              <a class="menu-link" href="#price">Hébergements</a>
+            </li>
+            <li class="menu-item item2">
+              <a class="menu-link" href="#activ">Activités</a>
+            </li>
+            <li class="menu-item register" > <a class="menu-link"  href="">S'inscrire</a> </li>
+          </ul>
+        </nav>
+        
       </div>
+    <!-- </div> -->
 
-
-
-    </div>
     <div id="main">
       <div class="accroche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -48,20 +49,19 @@
       </div>
 
       <div class="row nav">
-
         <form>
           <label for="fname"><i class="fa-solid fa-location-dot"></i></label>
           <input type="text" id="fname" name="fname" value="ex. Paris">
           <input type="submit" value="Rechercher">
         </form>
-
       </div>
+
       <div class="row filtres">filtres</div>
       <div class="row info">info </div>
       <div class="row prices" id="price">prix</div>
       <div class="row activites" id="activ">activités </div>
-
     </div>
+
     <footer class="row footer">
       footer
     </footer>
