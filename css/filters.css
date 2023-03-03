@@ -40,7 +40,7 @@ form .label{
     width: 950px;
     height: 7vh;
     display: flex;
-    border: 1px solid #d60c0c;
+    border: 3px solid #d60c0c;
     justify-content: space-between;
     /* margin: 20px 0; */
 
@@ -72,10 +72,7 @@ form .label{
     align-items: center;
 }
 
-.info{
-    margin: 0 0 20px 0;
 
-}
 
 .i-span-filter{
     display: flex;
@@ -86,9 +83,15 @@ form .label{
     height: 59px;
     /* padding-top: 0; */
     border-radius: 50% 50%;  
+    background: #ddf2f0;
 } 
 
 .filter-item p{
     color: #d60c0c;
     padding: 0 15px;
+}
+
+.info{
+    margin: 20px 0 20px 0;
+    padding: 20px 0;
 }
