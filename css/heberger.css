@@ -32,15 +32,35 @@
 }
 
 .card{
-    height: 150px;
+    height: 210px;
     width: 250px;
     border: 3px solid #e71313;
+    margin: 5px;
     
 }
 
 .card img{
     max-width: 97%;
-        max-height: 60%;
-        margin: 5px 5px;
+    max-height: 60%;
+    margin: 5px 5px;
 
+}
+
+
+.footerDiv{
+    display: flex;
+    border: 1px solid #d20f0f;
+    width: 100%;
+    
+}
+.footerDiv ul{
+    /* display: flex; */
+    border: 2px solid #43d20f;
+    width: 100%;
+    padding: 15px 15px; 
+}
+.footerDiv ul li {
+border: 1px solid #000;
+    width: 100%;
+    padding: 5px 0px; 
 }
