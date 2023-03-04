@@ -29,12 +29,15 @@
     border: 2px solid #000;
     display: flex;
     justify-content: space-around;
+    border: 1px solid #000;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .card{
     height: 210px;
-    width: 250px;
-    border: 3px solid #e71313;
+    width: 28%;
+    border: 1px solid #e71313;
     margin: 5px;
     
 }
@@ -46,26 +49,3 @@
 
 }
 
-
-.footerDiv{
-    display: flex;
-    border: 1px solid #d20f0f;
-    width: 100%;
-    
-}
-.footerDiv ul{
-    /* display: flex; */
-    border: 2px solid #43d20f;
-    width: 100%;
-    padding: 15px 15px; 
-}
-.footerDiv ul li {
-    border: 1px solid #000;
-    width: 100%;
-    padding: 5px 0px; 
-}
-.footerDiv ul li {
-    border: 1px solid #000;
-    width: 100%;
-    padding: 5px 0px; 
-}
