@@ -1,0 +1,15 @@
+.activites{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.activites h3{
+    padding: 30px 30px;
+    color: brown;
+}
+
+.activite-item{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+}

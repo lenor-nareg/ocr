@@ -1,9 +1,13 @@
-
+.footer{
+    width: 100%;
+    height: 100px;
+}
 
 .footerDiv{
     display: flex;
     border: 1px solid #d20f0f;
     width: 100%;
+    margin: 0 0 20px 0;
     
 }
 .footerDiv ul{
@@ -11,14 +15,17 @@
     border: 2px solid #43d20f;
     width: 100%;
     padding: 15px 15px; 
+
 }
-.footerDiv ul li {
-    border: 1px solid #000;
-    width: 100%;
-    padding: 5px 0px; 
+.footerDiv ul h3{
+    /* display: flex; */
+    /* border: 2px solid #43d20f; */
+    /* width: 100%; */
+    padding: 5px 15px; 
 }
+
 .footerDiv ul li {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 100%;
-    padding: 5px 0px; 
+    padding: 5px 20px; 
 }
