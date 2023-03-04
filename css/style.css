@@ -11,7 +11,7 @@
 #container {
   max-width: 1400px;
   margin: 0 auto;
-  border: 5px solid #000;
+  border: 5px solid #caac04;
   display: flex;
   flex-direction: column;
   min-height: 100px;
@@ -22,17 +22,15 @@
   display: flex;
   justify-content: space-between;
   border: 3px solid #85f13d;
-  width: 100%;
+  max-width: 1400px;
   height: 100px;
   /* padding: 10px 0; */
 }
 
-
-
 .header img{
   border: 1px solid #000;
   margin: 0;
-  width: 98px;
+  max-width: 98px;
   height: 55px;
   padding-top: 10px;
 }
@@ -40,7 +38,7 @@
 .header-nav{
 
   border: 3px dashed #da1919;
-  width:415px;
+  max-width:415px;
   height: 100%;
  
 }
@@ -48,7 +46,7 @@
 .menu-nav {
   display: flex;
   justify-content: space-around;
-  width: 414px;
+  max-width: 414px;
   height: 100%;
   border: 2px dashed #04aaac;
   margin: 0;
@@ -92,13 +90,13 @@
 }
 
 .row {
-  border: 3px dashed rgb(21, 22, 22);
+  border: 2px dashed rgb(21, 22, 22);
 }
 
 #main{
   border: 3px solid #dc0c0c;
   width: 100%;
-  /* height: 50vh; */
+  
 }
 
 
