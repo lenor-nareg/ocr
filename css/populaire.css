@@ -1,0 +1,20 @@
+.popu{
+    width: 33%;
+}
+
+.card2{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.cards2{
+    
+}
+
+.container2{
+    width: 300px;
+    background: #e46d6d;
+    
+}
