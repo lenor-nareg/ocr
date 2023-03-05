@@ -52,6 +52,7 @@ form .label{
     border: 2px solid #af5151;
     padding-right: 30px;
     font-size: large;
+    
 }
 
 .filters-items{
@@ -92,4 +93,20 @@ form .label{
 .info{
     margin: 20px 0 20px 0;
     padding: 20px 0;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    height: auto;
+    
+}
+.info span{
+   border: 1px solid #000;
+    margin:0 15px 0 0 ;
+    display: block;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
 }
