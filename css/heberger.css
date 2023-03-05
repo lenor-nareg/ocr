@@ -1,5 +1,6 @@
 .main2{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     border: 1px solid #000;
     justify-self: unset;
@@ -16,6 +17,7 @@
 
 .heberger{
     width: 65%;
+    min-width: 350px;
 }
 
 .heberger-title, .popu-title{
@@ -26,9 +28,10 @@
     border: 2px solid #000;
     display: flex;
     justify-content: space-around;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 100%;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .card{
@@ -36,6 +39,8 @@
     width: 28%;
     border: 1px solid #e71313;
     margin: 5px;
+    border-radius: 15px;
+    background-color: white;
     
 }
 

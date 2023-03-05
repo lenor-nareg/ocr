@@ -15,6 +15,13 @@
 
 .container2{
     max-width: 300px;
-    background: #e46d6d;
+    padding: 0 0 0 20px;
+    /* background: #e46d6d; */
+    
+}
+.container2 span:nth-last-child(-n + 1){
+
+    color: rgb(153, 149, 149);
+
     
 }

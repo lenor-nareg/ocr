@@ -51,14 +51,7 @@ form .label{
     align-items: center;
     border: 2px solid #af5151;
     padding-right: 30px;
-}
-
-.filter-item{
-    border: 2px solid #000;
-    border-radius: 50px;
-    display: flex;
-    height: 59px;
-    align-items: center; 
+    font-size: large;
 }
 
 .filters-items{
@@ -68,6 +61,14 @@ form .label{
     border: 1px solid #000;
     justify-content: space-between;
     align-items: center;
+}
+
+.filter-item{
+    border: 2px solid #000;
+    border-radius: 50px;
+    display: flex;
+    height: 59px;
+    align-items: center; 
 }
 
 .i-span-filter{
