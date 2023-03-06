@@ -1,6 +1,14 @@
 .popu{
     width: 33%;
 }
+.popu-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popu-info span{
+    padding: 0 30px 0 0;
+}
 
 .card2{
     display: flex;
@@ -10,16 +18,25 @@
     margin: 0 auto;
 }
 .cards2{
-    
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
 
-.container2{
+.container2, .pop-main{
     max-width: 300px;
     padding: 0 0 0 20px;
     /* background: #e46d6d; */
     
 }
-.container2 span:nth-last-child(-n + 1){
+
+.pop-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.container2 span:nth-last-child(-n + 2){
 
     color: rgb(153, 149, 149);
 
