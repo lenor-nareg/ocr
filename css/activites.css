@@ -1,7 +1,9 @@
 .activites{
+    max-width: 1400px;
     width: 100%;
-    border: 1px solid #000;
-    background: #F2F2F2;
+    border: 3px solid #000;
+    background: #ffffff;
+    height: 800px;    
 }
 
 .activites h3{
@@ -9,8 +11,59 @@
     color: brown;
 }
 
-.activite-item{
-    height: 100px;
-    width: 100px;
-    border: 1px solid #000;
+.activ-list{
+   max-width: 1398px;
+   width: 100%;
+   height: auto;
+   margin: 10px auto;
+   border: 3px solid #3ee800;
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+
 }
+
+.activite-item{
+    box-shadow: 0 0 20px #0000002e;
+    transition-duration: 0.1s;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large; 
+    width: 23%;   
+}
+
+.activ1{
+    /* width: 320px; */
+    height: 545px;  
+}
+.activ2{
+    /* width: 320px; */
+    height:290px ; 
+}
+.activ3{
+    
+    /* width: 320px; */
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+    
+}
+.activ4{
+    /* width:320px; */
+    height: 545px;   
+}
+.activ5{
+    /* width: 320px; */
+    height: 225px;
+}
+.activ6{
+    /* width: 320px; */
+    height: 290px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
