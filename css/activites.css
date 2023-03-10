@@ -34,10 +34,6 @@
     width: 23%;   
 }
 
-.activ1{
-    /* width: 320px; */
-    height: 545px;  
-}
 .activ2{
     /* width: 320px; */
     height:290px ; 
@@ -51,10 +47,7 @@
     left: 26%;
     
 }
-.activ4{
-    /* width:320px; */
-    height: 545px;   
-}
+
 .activ5{
     /* width: 320px; */
     height: 225px;
@@ -66,4 +59,14 @@
     bottom: 0;
     right: 0;
 }
+
+.activite-item {
+    background-color: blue;
+}
+
+.activite-item:nth-child(3n+1) {
+    background-color: red;
+    height: 545px;
+}
+
 
