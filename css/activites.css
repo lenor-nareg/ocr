@@ -92,4 +92,22 @@
         height: 250px;
     }
 
+    .activ1 {
+        order: 1; /* default is 0 */
+      }
+    .activ2 {
+        order: 2; /* default is 0 */
+      }
+    .activ3 {
+        order: 5; /* default is 0 */
+      }
+    .activ4 {
+        order: 3; /* default is 0 */
+      }
+    .activ5 {
+        order: 4; /* default is 0 */
+      }
+    .activ6 {
+        order: 6; /* default is 0 */
+      }
   }
