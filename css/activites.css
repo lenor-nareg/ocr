@@ -41,14 +41,13 @@
 .activ2{
     /* width: 320px; */
     height:290px ; 
-}
-.activ3{
-    
+}  
+.activ3{    
     /* width: 320px; */
     height: 220px;
     position: absolute;
     bottom: 0;
-    left: 26%;
+    left: 25.70%;
     
 }
 .activ4{
@@ -67,3 +66,30 @@
     right: 0;
 }
 
+
+
+  @media screen and (max-width: 1024px) {
+    body{
+        margin: 0 20px;
+        background: #ecd9d9;
+
+    }
+
+    .activ-list {
+      background-color: blue;
+      max-width: 1024px;   
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      row-gap: 50px;
+      border-color: red;
+
+    }
+
+    .activite-item{
+        width: 30%;
+        position: static;
+        height: 250px;
+    }
+
+  }

@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/nav.css">
-  <link rel="stylesheet" href="/css/filters.css">
-  <link rel="stylesheet" href="/css/heberger.css">
-  <link rel="stylesheet" href="/css/populaire.css">
-  <link rel="stylesheet" href="/css/activites.css">
-  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/filters.css">
+  <link rel="stylesheet" href="css/heberger.css">
+  <link rel="stylesheet" href="css/populaire.css">
+  <link rel="stylesheet" href="css/activites.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="https://kit.fontawesome.com/3563e2798a.css" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/3563e2798a.js" crossorigin="anonymous"></script>
 
@@ -24,6 +24,7 @@
 </head>
 
 <body>
+  <!------------------------ header ----------------------------------->
   <div class="header">
     <img src="assets/logo/booki_logo.svg" alt="booki">
     <nav class="header-nav">
@@ -40,19 +41,25 @@
       <a class="menu-link" href="">S'inscrire</a>
     </span>
   </div>
+
+  <!------------------------ container ----------------------------------->
   <div id="container">
 
     <!-- <div class="row-header"> -->
 
     <!-- </div> -->
 
+    <!------------------------ main ----------------------------------->
     <div id="main">
+
+      <!------------------------ accroche ----------------------------------->
       <div class="accroche">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <!-- </div>
 
       <div class="row nav"> -->
+        <!------------------------ form ----------------------------------->
         <form>
           <label for="fname" class="label test"><i class="fa-solid fa-location-dot"></i></label>
           <input type="text" id="fname" class="test" name="fname" placeholder="Marseille, France">
@@ -60,6 +67,7 @@
         </form>
       </div>
 
+      <!------------------------ filters ----------------------------------->
       <div class="filtres-list">
 
         <div class="filters-items">
@@ -94,12 +102,16 @@
         </div>
 
       </div>
+
+      <!------------------------ info ----------------------------------->
       <div class="row info">
         <span><i class="fa-solid fa-info"></i></span>
         <p>
           Plus de 500 logements sont disponibles dans cette ville
         </p>
       </div>
+
+<!------------------------ hebergements ----------------------------------->
 
       <div class="main2" id="note">
         <div class=" heberger">
@@ -124,10 +136,12 @@
           </div>
           <h3 class="heberger-title"><a href="">Afficher plus</a></h3>
         </div>
+
+        <!------------------------ populaires ----------------------------------->
         <div class="popu">
           <div class="popu-info">
             <h3 class="popu-title">Les plus populaire</h3>
-            <span><i class="fa-solid fa-chart-line"></i></span>
+            <span><i class="fa-chart-line fa-solid "></i></span>
           </div>
 
           <div class="cards2">
@@ -149,8 +163,48 @@
               </div>
             </div>
           </div>
+          <div class="cards2">
+            <div class="card2">
+              <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+              <div class=" pop-main">
+                <div class="pop-title">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                </div>
+
+                <div class="pop-stars">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="card2">
+              <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+              <div class=" pop-main">
+                <div class="pop-title">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                </div>
+
+                <div class="pop-stars">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
+        <!------------------------ activites ----------------------------------->
         <div class="activites" id="activ">
           <h3>Activités à Marseille</h3>
           <div class="activ-list">
@@ -165,6 +219,8 @@
       </div>
     </div>
   </div>
+
+  <!------------------------ footer ----------------------------------->
   <footer class="footer">
     <div class="footer-list">
       <div class="footerDiv a-propos">
