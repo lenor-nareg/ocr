@@ -57,8 +57,25 @@
 }
 
 .container2 span:nth-last-child(-n + 2){
-
     color: rgb(153, 149, 149);
-
-    
 }
+
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 991px) {
+    .popu {
+      background-color: blue;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .cards2{
+        /* display: flex; */
+        width: 33%;
+    }
+
+    .popu-info{
+        width: 100%;
+    }
+  }

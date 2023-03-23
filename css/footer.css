@@ -14,7 +14,7 @@
 .footerDiv{
     /* display: flex; */
     border: 1px solid #d20f0f;
-    /* width: 100%; */
+    width: 30%;
     margin: 0 0 20px 0; 
     flex-grow: 1;
     
