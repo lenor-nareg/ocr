@@ -107,7 +107,7 @@
 
   }
   
-  /* On screens that are 767px or less, set the background color to olive */
+  /* On screens that are 767px or less */
   @media screen and (max-width: 767px) {
     #container {
       background-color: olive;
@@ -151,6 +151,16 @@
       height: 100%;
 
       border: 5px dashed #04aaac;
+    }
+
+
+    .header-nav{
+      height: 100px;
+      
+    }
+
+    .menu-link{
+      font-size: x-large;
     }
     
   }

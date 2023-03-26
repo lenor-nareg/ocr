@@ -110,3 +110,27 @@ form .label{
     justify-content: center;
     border-radius: 20px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .filters-title {
+      background-color: rgb(150, 150, 231);
+      width: 100%;
+      
+    }
+
+    .filter-item{
+        /* display: flex; */
+        width: 40%;
+    }
+    
+    .filters-items{
+        height: 200px;
+        display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    border: 1px solid #000;
+    justify-content: space-around;
+    align-content: space-between;
+    }
+  }
