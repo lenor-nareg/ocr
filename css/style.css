@@ -21,12 +21,11 @@
   margin: 0;
   max-width: 100px;
   height: 65px;
-  padding: 10px 0 0 5px;
+  padding: 10px 0 0 5px;  
 }
 
 .header-nav{
   border: 3px dashed #da1919;
-  /* width:1200px; */
   flex-grow: 1;
   height: 100%;
   display: flex;
@@ -79,17 +78,6 @@
   transition-duration: 0.1s;
 }
 
-.register{
-  border: 2px dashed #0fcbe4;
-  display: block;
-  width: 100px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
 #container {
   max-width: 1400px;
   margin: 0 auto;
@@ -99,61 +87,70 @@
   min-height: 100px;
 }
 
-
-
 .row {
   border: 2px dashed rgb(21, 22, 22);
 }
 
 #main{
   border: 3px solid #dc0c0c;
-  width: 100%;
-  
+  width: 100%; 
 }
-
 
 /* -------------MediaQueries--- */
 
-/* Set the background color of body to tan */
-.container {
-    background-color: tan;
-  }
-  
   /* On screens that are 992px or less, set the background color to blue */
   @media screen and (max-width: 992px) {
-    .container {
+    #container {
       background-color: blue;
       max-width: 992px;
     }
 
   }
   
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
-    .container {
+  /* On screens that are 767px or less, set the background color to olive */
+  @media screen and (max-width: 767px) {
+    #container {
       background-color: olive;
-      max-width: 600px;
+      max-width: 767px;
     }
     .header{
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
+      justify-content: center;
+      height: auto;
+      border: 2px solid #1e00e4;
     }
-    .logo{
+    .header img{
       /* display: none; */
       width: 100%;
       height: 8vh;  
     }
-    .logo h1{
-     width: 30%;
-     border: 1px solid #000;
-     text-align: center;
-     margin: 0 auto;
-     font-size: small;
-    }
-    .navi{
-      /* display: none; */
+
+    .header-nav{
       width: 100%;
-      height: 8vh;
     }
+
+    .header .item1,.header .item2 {
+      border-top: none;
+    }
+
+    .header .item1{
+      border-bottom:3px solid #0065FC;
+    }
+    .header .item2{
+      border-bottom:3px solid #ffffff;
+    }
+    .header .item2:hover{
+      border-bottom:3px solid #0065FC;
+    }
+
+    .menu-nav {
+      display: flex;
+      /* justify-content: space-around; */
+      width: 100%;
+      height: 100%;
+
+      border: 5px dashed #04aaac;
+    }
+    
   }
