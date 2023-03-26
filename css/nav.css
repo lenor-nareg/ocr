@@ -16,6 +16,33 @@ form .label{
     flex-grow: 1;
     }
 
-#search{
+.button{
+    height: 100%;
     border-radius: 0 1rem 1rem 0;
 }
+.rechercher-icon{
+   
+   display:none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .rechercher-icon{
+   
+        display:block;
+        width: 60px;
+     }
+
+     .rechercher{
+        display: none;
+     }
+
+     .accroche form{
+        width: 100%;
+     }
+     
+
+   
+  }
+
