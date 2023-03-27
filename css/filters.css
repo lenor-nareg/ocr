@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   margin: 5px 0;
-  max-width: 415px;
+  width: 415px;
   height: 50px;
   border: 1px solid #000;
   border-radius: 10px;
@@ -146,5 +146,23 @@ form .label {
     display: flex;
     height: 39px;
     align-items: center;
+  }
+
+  .accroche form {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
 }
